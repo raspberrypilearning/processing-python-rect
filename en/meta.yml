@@ -1,11 +1,9 @@
-title: processing-python-rect
+title: Draw a rectangle
 hero_image: images/banner.png
-description: processing-python-rect description
+description: Draw a rectangle using processing in Python
 version: 4
 listed: false
 copyedit: false
 last_tested: "2021-07-22"
 steps:
   - title: Introduction
-  - title: Step title
-  - title: What next?
