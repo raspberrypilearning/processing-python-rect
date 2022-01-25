@@ -7,7 +7,9 @@ The rectangle will be drawn using the stroke and fill values that have been set 
 language: python
 filename: main.py
 ---
+
   rect(160, 220, 200, 100) # x, y, width, height
+  
 --- /code ---
 
 The rectangle will be drawn with its top left corner at the (x, y) coordinates given by the first two numbers.
