@@ -1,11 +1,11 @@
 ---
-title: Draw a rectangle
+title: ارسم مستطيلاً
 hero_image: images/banner.png
-description: Draw a rectangle using processing in Python
+description: ارسم مستطيلاً باستخدام المعالجة في Python
 version: 4
 listed: false
 copyedit: false
 last_tested: "2021-07-22"
 steps:
   - 
-    title: Introduction
+    title: المقدمة
