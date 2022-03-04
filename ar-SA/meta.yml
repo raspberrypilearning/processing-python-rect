@@ -1,0 +1,10 @@
+---
+title: ارسم مستطيلاً
+hero_image: images/banner.png
+description: ارسم مستطيلاً باستخدام المعالجة في Python
+version: 4
+listed: false
+copyedit: false
+last_tested: "2021-07-22"
+steps:
+  - title: المقدمة

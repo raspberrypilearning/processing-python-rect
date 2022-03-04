@@ -1,0 +1,10 @@
+---
+title: 四角形を描く
+hero_image: images/banner.png
+description: PythonのProcessingを使って四角形を描きます
+version: 4
+listed: false
+copyedit: false
+last_tested: "2021-07-22"
+steps:
+  - title: はじめに
