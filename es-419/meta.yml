@@ -1,7 +1,7 @@
 ---
 title: Dibuja un rectángulo
 hero_image: images/banner.png
-description: Draw a rectangle using processing in Python
+description: Dibuja un rectángulo usando funciones de Python
 version: 4
 listed: false
 copyedit: false
