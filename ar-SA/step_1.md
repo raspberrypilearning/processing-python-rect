@@ -1,6 +1,6 @@
-Draw a square or rectangle using: `rect(x, y, width, height)`
+ارسم مربعًا أو مستطيلًا باستخدام: `rect(x, y, width, height)`
 
-The rectangle will be drawn using the stroke and fill values that have been set before `rect` is called.
+سيتم رسم المستطيل باستخدام حركة سريعة والتعبئة التي تم تعيينها قبل استدعاء `rect`.
 
 --- code ---
 ---
@@ -8,17 +8,17 @@ language: python
 filename: main.py
 ---
 
-  rect(160, 220, 200, 100) # x, y, width, height
+  # x ، y ، العرض ، الارتفاع rect(160, 220, 200, 100)
 
 --- /code ---
 
-The rectangle will be drawn with its top left corner at the (x, y) coordinates given by the first two numbers.
+سيتم رسم المستطيل بحيث تكون الزاوية اليسرى العلوية له عند إحداثيات (x, y) المعطاة بأول رقمين.
 
-**Tip:** If you want the center of the rectangle to be at the (x, y) coordinates then call `rect_mode(CENTER)` in the `setup` function.
+**نصيحة:** إذا كنت تريد أن يكون مركز المستطيل عند الإحداثيات (x ، y) ، فأستدعي `rect_mode(CENTER)` في الدالة `setup`.
 
-The third number is the width and the fourth is the height of the rectangle.
+الرقم الثالث هو العرض والرابع هو ارتفاع المستطيل.
 
-![The output area showing a rectangle centred around x 160, y 220 with width 200 and height 100](images/example.png)
+![تُظهر منطقة التنفيذ مستطيلاً يتمركز في x 160 و y 220 بعرض 200 وارتفاع 100](images/example.png)
 
-Make the width and height the same to draw a square.
+لرسم مربع اجعل العرض والارتفاع متساويين.
 
