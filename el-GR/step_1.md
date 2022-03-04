@@ -1,6 +1,6 @@
-Draw a square or rectangle using: `rect(x, y, width, height)`
+Σχεδίασε ένα τετράγωνο ή ορθογώνιο χρησιμοποιώντας: `rect (x, y, width, height)`
 
-The rectangle will be drawn using the stroke and fill values that have been set before `rect` is called.
+Το ορθογώνιο θα σχεδιαστεί χρησιμοποιώντας τις τιμές περιγράμματος και χρώματος που έχουν οριστεί πριν καλέσεις το `rect`.
 
 --- code ---
 ---
@@ -8,17 +8,17 @@ language: python
 filename: main.py
 ---
 
-  rect(160, 220, 200, 100) # x, y, width, height
+  rect(160, 220, 200, 100) # x, y, πλάτος, ύψος
 
 --- /code ---
 
-The rectangle will be drawn with its top left corner at the (x, y) coordinates given by the first two numbers.
+Το ορθογώνιο θα σχεδιαστεί με την επάνω αριστερή γωνία του στις συντεταγμένες (x, y) που δίνονται από τους δύο πρώτους αριθμούς.
 
-**Tip:** If you want the center of the rectangle to be at the (x, y) coordinates then call `rect_mode(CENTER)` in the `setup` function.
+**Συμβουλή:** Εάν θέλεις το κέντρο του ορθογωνίου να είναι στις συντεταγμένες (x, y), τότε κάλεσε το `rect_mode(CENTER)` στη συνάρτηση `setup`.
 
-The third number is the width and the fourth is the height of the rectangle.
+Ο τρίτος αριθμός είναι το πλάτος και ο τέταρτος είναι το ύψος του ορθογωνίου.
 
-![The output area showing a rectangle centred around x 160, y 220 with width 200 and height 100](images/example.png)
+![Η περιοχή που προκύπτει δείχνει ένα ορθογώνιο με κέντρο γύρω από x 160, y 220 με πλάτος 200 και ύψος 100](images/example.png)
 
-Make the width and height the same to draw a square.
+Κάνε ίδιο το πλάτος και το ύψος για να σχεδιάσεις ένα τετράγωνο.
 
