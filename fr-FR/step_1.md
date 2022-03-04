@@ -1,6 +1,6 @@
-Draw a square or rectangle using: `rect(x, y, width, height)`
+Dessiner un carré ou un rectangle en utilisant : `rect(x, y, width, height)`
 
-The rectangle will be drawn using the stroke and fill values that have been set before `rect` is called.
+Le rectangle sera dessiné en utilisant les valeurs de trait et de remplissage qui ont été définies avant l'appel de `rect`.
 
 --- code ---
 ---
@@ -8,17 +8,17 @@ language: python
 filename: main.py
 ---
 
-  rect(160, 220, 200, 100) # x, y, width, height
+  rect(160, 220, 200, 100) # x, y, largeur, hauteur
 
 --- /code ---
 
-The rectangle will be drawn with its top left corner at the (x, y) coordinates given by the first two numbers.
+Le rectangle sera dessiné avec son coin supérieur gauche aux coordonnées (x, y) données par les deux premiers nombres.
 
-**Tip:** If you want the center of the rectangle to be at the (x, y) coordinates then call `rect_mode(CENTER)` in the `setup` function.
+**Astuce :** Si tu veux que le centre du rectangle soit aux coordonnées (x, y), appelle `rect_mode(CENTER)` dans la fonction `setup`.
 
-The third number is the width and the fourth is the height of the rectangle.
+Le troisième nombre est la largeur et le quatrième est la hauteur du rectangle.
 
-![The output area showing a rectangle centred around x 160, y 220 with width 200 and height 100](images/example.png)
+![La zone de sortie montrant un rectangle centré autour de x 160, y 220 avec une largeur de 200 et une hauteur de 100](images/example.png)
 
-Make the width and height the same to draw a square.
+Fais en sorte que la largeur et la hauteur soient identiques pour dessiner un carré.
 
