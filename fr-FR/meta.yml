@@ -1,7 +1,7 @@
 ---
-title: Draw a rectangle
+title: Dessiner un rectangle
 hero_image: images/banner.png
-description: Draw a rectangle using processing in Python
+description: Dessiner un rectangle en utilisant Python
 version: 4
 listed: false
 copyedit: false
