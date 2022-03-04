@@ -1,6 +1,6 @@
 Dibuja un cuadrado o rectángulo usando: `rect(x, y, ancho, alto)`
 
-The rectangle will be drawn using the stroke and fill values that have been set before `rect` is called.
+El rectángulo se dibujará utilizando los valores de stroke (trazo) y fill (relleno) que se han establecido antes de llamar a la función `rect`.
 
 --- code ---
 ---
@@ -16,9 +16,9 @@ El rectángulo se dibujará con su esquina superior izquierda en las coordenadas
 
 **Sugerencia:** Si deseas que el centro del rectángulo esté en las coordenadas (x, y), llama a `rect_mode(CENTER)` en la función `setup`.
 
-The third number is the width and the fourth is the height of the rectangle.
+El tercer número es el ancho (width) y el cuarto es el alto (height) del rectángulo.
 
 ![El área de salida que muestra un rectángulo centrado alrededor de x 160, y 220 con ancho 200 y alto 100](images/example.png)
 
-Make the width and height the same to draw a square.
+Haz que el ancho y el alto sean iguales para dibujar un cuadrado.
 
