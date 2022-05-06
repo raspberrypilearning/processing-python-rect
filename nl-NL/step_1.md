@@ -12,7 +12,7 @@ filename: main.py
 
 --- /code ---
 
-De rechthoek wordt getekend met de linkerbovenhoek op de (x, y) coördinaten gegeven door de eerste twee getallen.
+De rechthoek wordt getekend met zijn linkerbovenhoek op de (x, y) coördinaten die je hebt ingegeven via de eerste twee getallen.
 
 **Tip:** Als je wilt dat het midden van de rechthoek zich op de (x, y)-coördinaten bevindt, roep dan `rect_mode(CENTER)` in de `setup` functie aan.
 
