@@ -1,4 +1,4 @@
-Lluniwch sgwâr neu betryal gan ddefnyddio: `rect(x, y, width, height)`
+Lluniwch sgwâr neu betryal gan ddefnyddio: `rect(x, y, lled, uchder)`
 
 Bydd y petryal yn cael ei lunio gan ddefnyddio'r gwerthoedd strôc a llenwi sydd wedi'u gosod cyn galw `rect`.
 
