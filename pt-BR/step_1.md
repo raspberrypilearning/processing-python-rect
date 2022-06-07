@@ -1,6 +1,6 @@
 Desenhe um quadrado ou retângulo usando: `rect(x, y, largura, altura)`
 
-The rectangle will be drawn using the stroke and fill values that have been set before `rect` is called.
+O retângulo será desenhado usando os valores para os parâmetros de 'traço (stroke)' e 'preenchimento (fill)' que foram definidos antes de `rect` ser chamado.
 
 --- code ---
 ---
@@ -12,9 +12,9 @@ filename: main.py
 
 --- /code ---
 
-The rectangle will be drawn with its top left corner at the (x, y) coordinates given by the first two numbers.
+O retângulo será desenhado com seu canto superior esquerdo nas coordenadas (x, y) dadas pelos dois primeiros números.
 
-**Tip:** If you want the center of the rectangle to be at the (x, y) coordinates then call `rect_mode(CENTER)` in the `setup` function.
+**Dica:** Se você quiser que o centro do retângulo esteja nas coordenadas (x, y), então chame `rect_mode(CENTER)` na função `setup (configuração)`.
 
 O terceiro número é a largura e o quarto é a altura do retângulo.
 
