@@ -1,6 +1,6 @@
-Draw a square or rectangle using: `rect(x, y, width, height)`
+Намалюй квадрат або прямокутник за допомогою: `rect(x, y, ширина, висота)`
 
-The rectangle will be drawn using the stroke and fill values that have been set before `rect` is called.
+Прямокутник буде намальований з використанням значень обведення та заливки, які були встановлені перед викликом `rect`.
 
 --- code ---
 ---
@@ -12,13 +12,13 @@ filename: main.py
 
 --- /code ---
 
-The rectangle will be drawn with its top left corner at the (x, y) coordinates given by the first two numbers.
+Прямокутник буде побудовано верхнім лівим кутом на координатах (x, y), які задаються першими двома числами.
 
-**Tip:** If you want the center of the rectangle to be at the (x, y) coordinates then call `rect_mode(CENTER)` in the `setup` function.
+**Порада:** Якщо ти хочеш, щоб центр прямокутника знаходився на координатах (x, y), то виклич `rect_mode(CENTER)` у функції `setup`.
 
-The third number is the width and the fourth is the height of the rectangle.
+Третє число - ширина, а четверте - висота прямокутника.
 
-![The output area showing a rectangle centred around x 160, y 220 with width 200 and height 100](images/example.png)
+![У вихідну область виводиться прямокутник з центром у точках x -160, y - 220, шириною 200 та висотою 100](images/example.png)
 
-Make the width and height the same to draw a square.
+Зроби ширину та висоту однаковими, щоб намалювати квадрат.
 
