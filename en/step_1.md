@@ -8,7 +8,7 @@ language: python
 filename: main.py
 ---
 
-  rect(160, 220, 200, 100) # x, y, width, height
+    rect(160, 220, 200, 100)  # x, y, width, height
   
 --- /code ---
 
