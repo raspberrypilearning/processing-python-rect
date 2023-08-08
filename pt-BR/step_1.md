@@ -1,6 +1,6 @@
 Desenhe um quadrado ou retângulo usando: `rect(x, y, largura, altura)`
 
-TO retângulo será desenhado usando os valores para os parâmetros de 'traço (stroke)' e 'preenchimento (fill)' que foram definidos antes de `rect` ser chamado.
+O retângulo será desenhado usando os valores para os parâmetros de 'traço (stroke)' e 'preenchimento (fill)' que foram definidos antes de `rect` ser chamado.
 
 --- code ---
 ---
