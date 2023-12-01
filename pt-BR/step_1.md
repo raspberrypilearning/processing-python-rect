@@ -8,17 +8,17 @@ language: python
 filename: main.py
 ---
 
-  rect(160, 220, 200, 100) # x, y, largura, altura
+    rect(160, 220, 200, 100)  # x, y, width, height
 
 --- /code ---
 
-O retângulo será desenhado com seu canto superior esquerdo nas coordenadas (x, y) dadas pelos dois primeiros números.
+The rectangle will be drawn with its top left corner at the (x, y) coordinates given by the first two numbers.
 
-**Dica:** Se você quiser que o centro do retângulo esteja nas coordenadas (x, y), então chame `rect_mode(CENTER)` na função `setup (configuração)`.
+**Tip:** If you want the center of the rectangle to be at the (x, y) coordinates then call `rect_mode(CENTER)` in the `setup` function.
 
-O terceiro número é a largura e o quarto é a altura do retângulo.
+The third number is the width and the fourth is the height of the rectangle.
 
-![A área de saída mostrando um retângulo centrado em torno de x 160, y 220 com largura 200 e altura 100](images/example.png)
+![The output area showing a rectangle centred around x 160, y 220 with width 200 and height 100](images/example.png)
 
-Faça a mesma largura e altura para desenhar um quadrado.
+Make the width and height the same to draw a square.
 
