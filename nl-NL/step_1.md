@@ -8,17 +8,17 @@ language: python
 filename: main.py
 ---
 
-  rect(160, 220, 200, 100) # x, y, breedte, hoogte
+    rect(160, 220, 200, 100)  # x, y, width, height
 
 --- /code ---
 
-De rechthoek wordt getekend met zijn linkerbovenhoek op de (x, y) coördinaten die je hebt ingegeven via de eerste twee getallen.
+The rectangle will be drawn with its top left corner at the (x, y) coordinates given by the first two numbers.
 
-**Tip:** Als je wilt dat het midden van de rechthoek zich op de (x, y)-coördinaten bevindt, roep dan `rect_mode(CENTER)` in de `setup` functie aan.
+**Tip:** If you want the center of the rectangle to be at the (x, y) coordinates then call `rect_mode(CENTER)` in the `setup` function.
 
-Het derde getal is de breedte en het vierde is de hoogte van de rechthoek.
+The third number is the width and the fourth is the height of the rectangle.
 
-![Het uitvoergebied met een rechthoek gecentreerd rond x 160, y 220 met een breedte van 200 en een hoogte van 100](images/example.png)
+![The output area showing a rectangle centred around x 160, y 220 with width 200 and height 100](images/example.png)
 
-Maak de breedte en hoogte gelijk om een vierkant te tekenen.
+Make the width and height the same to draw a square.
 
