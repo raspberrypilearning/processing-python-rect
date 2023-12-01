@@ -8,17 +8,17 @@ language: python
 filename: main.py
 ---
 
-  # x ، y ، العرض ، الارتفاع rect(160, 220, 200, 100)
+    rect(160, 220, 200, 100)  # x, y, width, height
 
 --- /code ---
 
-سيتم رسم المستطيل بحيث تكون الزاوية اليسرى العلوية له عند إحداثيات (x, y) المعطاة بأول رقمين.
+The rectangle will be drawn with its top left corner at the (x, y) coordinates given by the first two numbers.
 
-**نصيحة:** إذا كنت تريد أن يكون مركز المستطيل عند الإحداثيات (x ، y) ، فأستدعي `rect_mode(CENTER)` في الدالة `setup`.
+**Tip:** If you want the center of the rectangle to be at the (x, y) coordinates then call `rect_mode(CENTER)` in the `setup` function.
 
-الرقم الثالث هو العرض والرابع هو ارتفاع المستطيل.
+The third number is the width and the fourth is the height of the rectangle.
 
-![تُظهر منطقة التنفيذ مستطيلاً يتمركز في x 160 و y 220 بعرض 200 وارتفاع 100](images/example.png)
+![The output area showing a rectangle centred around x 160, y 220 with width 200 and height 100](images/example.png)
 
-لرسم مربع اجعل العرض والارتفاع متساويين.
+Make the width and height the same to draw a square.
 
