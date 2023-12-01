@@ -1,0 +1,10 @@
+---
+title: Narysuj prostokąt
+hero_image: images/banner.png
+description: Narysuj prostokąt za pomocą przetwarzania w Pythonie
+version: 4
+listed: false
+copyedit: false
+last_tested: "2021-07-22"
+steps:
+  - title: Wprowadzenie
