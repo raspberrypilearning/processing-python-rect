@@ -8,17 +8,17 @@ language: python
 filename: main.py
 ---
 
-  rect(160, 220, 200, 100) # x, y, lled, uchder
+    rect(160, 220, 200, 100)  # x, y, width, height
 
 --- /code ---
 
-Bydd y petryal yn cael ei lunio gyda'i gornel chwith uchaf yn y cyfesurynnau (x, y) sy'n cael eu rhoi gan y ddau rif cyntaf.
+The rectangle will be drawn with its top left corner at the (x, y) coordinates given by the first two numbers.
 
-**Cyngor:** Os ydych chi am i ganol y petryal fod yn y cyfesurynnau (x, y), galwch `rect_mode(CENTER)` yn y swyddogaeth `setup`.
+**Tip:** If you want the center of the rectangle to be at the (x, y) coordinates then call `rect_mode(CENTER)` in the `setup` function.
 
-Y trydydd rhif yw lled y petryal a'r pedwerydd yw ei uchder.
+The third number is the width and the fourth is the height of the rectangle.
 
-![Yr ardal allbwn yn dangos petryal wedi'i ganoli o amgylch x 160, y 220 gyda lled o 200 ac uchder o 100](images/example.png)
+![The output area showing a rectangle centred around x 160, y 220 with width 200 and height 100](images/example.png)
 
-I lunio sgwâr, gwnewch y lled a'r uchder yr un fath.
+Make the width and height the same to draw a square.
 
