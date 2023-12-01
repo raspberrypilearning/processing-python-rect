@@ -8,17 +8,17 @@ language: python
 filename: main.py
 ---
 
-    rect(160, 220, 200, 100)  # x, y, width, height
+    rect(160, 220, 200, 100) # x, y, szerokość, wysokość
 
 --- /code ---
 
-The rectangle will be drawn with its top left corner at the (x, y) coordinates given by the first two numbers.
+Prostokąt zostanie narysowany z lewym, górnym wierzchołkiem umieszczonym na podstawie współrzędnych (x, y), określonych przez pierwsze dwie wartości.
 
-**Tip:** If you want the center of the rectangle to be at the (x, y) coordinates then call `rect_mode(CENTER)` in the `setup` function.
+**Wskazówka:** Jeśli chcesz, aby środek prostokąta był określony przez współrzędne (x, y), użyj polecenia `rect_mode(CENTER)`w funkcji `setup`.
 
-The third number is the width and the fourth is the height of the rectangle.
+Trzecia wartość określa szerokość prostokąta, a czwarta jego wysokość.
 
-![The output area showing a rectangle centred around x 160, y 220 with width 200 and height 100](images/example.png)
+![Obszar wyjściowy pokazujący prostokąt o szerokości 200 i wysokości 100, ze środkiem w punkcie x 160, y 220](images/example.png)
 
-Make the width and height the same to draw a square.
+Ustaw tę samą wartość szerokości i wysokości, aby narysować kwadrat.
 
