@@ -8,17 +8,17 @@ language: python
 filename: main.py
 ---
 
-  rect(160, 220, 200, 100) # x, y, largeur, hauteur
+    rect(160, 220, 200, 100)  # x, y, width, height
 
 --- /code ---
 
-Le rectangle sera dessiné avec son coin supérieur gauche aux coordonnées (x, y) données par les deux premiers nombres.
+The rectangle will be drawn with its top left corner at the (x, y) coordinates given by the first two numbers.
 
-**Astuce :** Si tu veux que le centre du rectangle soit aux coordonnées (x, y), appelle `rect_mode(CENTER)` dans la fonction `setup`.
+**Tip:** If you want the center of the rectangle to be at the (x, y) coordinates then call `rect_mode(CENTER)` in the `setup` function.
 
-Le troisième nombre est la largeur et le quatrième est la hauteur du rectangle.
+The third number is the width and the fourth is the height of the rectangle.
 
-![La zone de sortie montrant un rectangle centré autour de x 160, y 220 avec une largeur de 200 et une hauteur de 100](images/example.png)
+![The output area showing a rectangle centred around x 160, y 220 with width 200 and height 100](images/example.png)
 
-Fais en sorte que la largeur et la hauteur soient identiques pour dessiner un carré.
+Make the width and height the same to draw a square.
 
