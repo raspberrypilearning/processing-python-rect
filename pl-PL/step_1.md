@@ -1,6 +1,6 @@
-Draw a square or rectangle using: `rect(x, y, width, height)`
+Narysuj kwadrat lub prostokąt używając polecenia: `rect(x, y, width, height)`
 
-The rectangle will be drawn using the stroke and fill values that have been set before `rect` is called.
+Prostokąt zostanie narysowany przy użyciu wartości wypełnienia i obrysu ustawionych przed wywołaniem polecenia `rect`.
 
 --- code ---
 ---
@@ -8,7 +8,7 @@ language: python
 filename: main.py
 ---
 
-  rect(160, 220, 200, 100) # x, y, width, height
+    rect(160, 220, 200, 100)  # x, y, width, height
 
 --- /code ---
 
