@@ -8,17 +8,17 @@ language: python
 filename: main.py
 ---
 
-  rect(160, 220, 200, 100) # x, y, 幅, 高さ
+    rect(160, 220, 200, 100)  # x, y, width, height
 
 --- /code ---
 
-四角形の左上の隅は最初の2つの数値で指定された(x, y)座標になります。
+The rectangle will be drawn with its top left corner at the (x, y) coordinates given by the first two numbers.
 
-**ヒント：** 四角形の中心を(x, y)座標にしたい場合は、 `setup`関数で`rect_mode(CENTER)`を呼び出します。
+**Tip:** If you want the center of the rectangle to be at the (x, y) coordinates then call `rect_mode(CENTER)` in the `setup` function.
 
-3番目の数字は四角形の幅で、4番目の数字は高さです。
+The third number is the width and the fourth is the height of the rectangle.
 
-![x 160、y 220を中心とし、幅200、高さ100の長方形を示す出力領域](images/example.png)
+![The output area showing a rectangle centred around x 160, y 220 with width 200 and height 100](images/example.png)
 
-正方形を描くには幅と高さを同じにします。
+Make the width and height the same to draw a square.
 
