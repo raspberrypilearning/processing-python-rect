@@ -1,0 +1,10 @@
+---
+title: Disegna un rettangolo
+hero_image: images/banner.png
+description: Disegna un rettangolo con Python, usando processing
+version: 4
+listed: false
+copyedit: false
+last_tested: "2021-07-22"
+steps:
+  - title: Introduzione
