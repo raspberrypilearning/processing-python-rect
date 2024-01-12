@@ -1,11 +1,11 @@
 ---
-title: Draw a rectangle
+title: Disegna un rettangolo
 hero_image: images/banner.png
-description: Draw a rectangle using processing in Python
+description: Disegna un rettangolo con Python, usando processing
 version: 4
 listed: false
 copyedit: false
 last_tested: "2021-07-22"
 steps:
   - 
-    title: Introduction
+    title: Introduzione
