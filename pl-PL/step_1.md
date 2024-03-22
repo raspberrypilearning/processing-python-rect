@@ -14,7 +14,7 @@ filename: main.py
 
 Prostokąt zostanie narysowany z lewym, górnym wierzchołkiem umieszczonym na podstawie współrzędnych (x, y), określonych przez pierwsze dwie wartości.
 
-**Wskazówka:** Jeśli chcesz, aby środek prostokąta był określony przez współrzędne (x, y), użyj polecenia `rect_mode(CENTER)`w funkcji `setup`.
+**Wskazówka:** Jeśli chcesz, aby środek prostokąta był określony przez współrzędne (x, y), użyj polecenia `rect_mode(CENTER)` w funkcji `setup`.
 
 Trzecia wartość określa szerokość prostokąta, a czwarta jego wysokość.
 
