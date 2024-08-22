@@ -1,4 +1,4 @@
-Zeichnen Sie ein Quadrat oder Rechteck mit: `rect(x, y, breite, höhe)` (in Python schreibt man Variablen klein)
+Zeichne ein Quadrat oder Rechteck mit: `rect(x, y, breite, höhe)`
 
 Das Rechteck wird mit den Strich- und Füllwerten gezeichnet, die vor dem Aufruf von `rect` festgelegt wurden.
 
@@ -8,7 +8,7 @@ language: python
 filename: main.py
 ---
 
-    rechteck(160, 220, 200, 100) # x, y, Breite, Höhe
+    rect(160, 220, 200, 100) # x, y, Breite, Höhe
 
 --- /code ---
 
