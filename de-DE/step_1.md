@@ -16,7 +16,7 @@ Das Rechteck wird mit seiner oberen linken Ecke an den (x, y)-Koordinaten gezeic
 
 **Tipp:** Wenn der Mittelpunkt des Rechtecks bei den Koordinaten (x, y) liegen soll, rufe `rect_mode(CENTER)` in der `setup` Funktion auf.
 
-Die dritte Zahl ist die Breite und die Vierte die Höhe des Rechtecks.
+Die dritte Zahl ist die Breite und die vierte die Höhe des Rechtecks.
 
 ![Der Ausgabebereich zeigt ein Rechteck, welches an dem Mittelpunkt x 160, y 220 zentriert ist. Es hat die Breite 200 und Höhe 100](images/example.png)
 
